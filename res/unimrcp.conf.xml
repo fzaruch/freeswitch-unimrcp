@@ -1,0 +1,12 @@
+<configuration name="unimrcp.conf" description="UniMRCP Client">
+ <settings>
+   <param name="default-tts-profile" value="voxeo-prophecy8.0-mrcp1"/>
+   <param name="default-asr-profile" value="mrcpserver02"/>
+   <param name="log-level" value="DEBUG"/>
+   <param name="max-connection-count" value="100"/>
+   <param name="offer-new-connection" value="1"/>
+ </settings>
+ <profiles>
+   <X-PRE-PROCESS cmd="include" data="../mrcp_profiles/*.xml"/>
+ </profiles>
+</configuration>'

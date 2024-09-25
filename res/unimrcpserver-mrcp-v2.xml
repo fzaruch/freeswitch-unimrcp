@@ -1,0 +1,21 @@
+<include>
+ <profile name="mrcpserver02" version="2">
+   <param name="client-ip" value="172.16.1.5"/>
+   <param name="client-ext-ip" value="192.168.25.187"/>
+   <param name="client-port" value="5090"/>
+   <!--param name="server-ip" value="172.16.1.2"/-->
+   <param name="server-ip" value="144.22.202.228"/>
+   <param name="server-port" value="8060"/>
+   <param name="sip-transport" value="udp"/>
+   <param name="rtp-ip" value="172.16.1.5"/>
+   <param name="rtp-ext-ip" value="192.168.25.187"/>
+   <param name="rtp-port-min" value="4000"/>
+   <param name="rtp-port-max" value="5000"/>
+   <param name="codecs" value="PCMU PCMA L16/96/8000"/>
+   <synthparams>
+   </synthparams>
+   <recogparams>
+       <param name="start-input-timers" value="false"/>
+   </recogparams>
+ </profile>
+</include>
